@@ -1,0 +1,127 @@
+<?php
+
+/**
+ * item 2015-06-12 lizhien
+ */
+
+// 金币
+const ITEM_STONE = 1000;
+// 通宝
+const ITEM_LEGION_STONE = 1201;
+
+// 任务
+const ITEM_MISSION = 1001;
+const ITEM_MISSION_PRESENT = 1003;
+
+// 精力丹
+const ITEM_EVENT_VIGOR = 1002;
+
+// 现隐粉
+const ITEM_CEMETERY_SHOW = 1007;
+
+// 迁城令
+const ITEM_LEGION_FIGHT = 1202;
+const ITEM_LEGION_MOVE = 1203;
+
+// 挑战牌
+const ITEM_BATTLE = 2001;
+const ITEM_BATTLE_PRESENT = 2002;
+
+// 竞技牌
+const ITEM_BATTLE_FIGHT = 2003;
+
+// 换人牌
+const ITEM_BATTLE_CHANGE = 2004;
+
+// 扭蛋 招募令
+const ITEM_GACHA_TICKET = 3001;
+const ITEM_GACHA_TICKET_PRESENT = 3002;
+
+// 金苹果
+const ITEM_GOLDEN_APPLE = 3003;
+
+// 潘多拉之匙
+const ITEM_SLIVER = 3004;
+
+// 金币宝箱
+const ITEM_GOLD_BOX = 3011;
+
+// 声望宝箱
+const ITEM_PRESTIGE_BOX = 3013;
+
+// 碎片宝箱
+const ITEM_PIECE_BOX = 3012;
+
+// 金苹果宝箱
+const ITEM_GOLDEN_APPLE_BOX = 3014;
+
+// 银苹果宝箱
+const ITEM_SLIVER_BOX = 3015;
+
+// 装备宝箱
+const ITEM_EQUIP_BOX = 3016;
+const ITEM_EQUIP_BOX_GREEN = 3017;
+const ITEM_EQUIP_BOX_BLUE = 3018;
+const ITEM_EQUIP_BOX_PURPLE = 3019;
+
+// 武将宝箱
+const ITEM_CARD_BOX_GREEN = 3020;
+const ITEM_CARD_BOX_BLUE = 3021;
+const ITEM_CARD_BOX_PURPLE = 3022;
+
+// 技能书宝箱
+const ITEM_SKILL_BOOK_BOX_GREEN = 3023;
+const ITEM_SKILL_BOOK_BOX_BLUE = 3024;
+const ITEM_SKILL_BOOK_BOX_PURPLE = 3025;
+
+// 万能宝箱
+const ITEM_ALL_BOX_GREEN = 3026;
+const ITEM_ALL_BOX_BLUE = 3027;
+const ITEM_ALL_BOX_PURPLE = 3028;
+
+
+// 将魂
+const ITEM_BREAK = 4001;
+const ITEM_BREAK_PRESENT = 4002;
+const ITEM_SKILL_BOOK1 = 4003;
+const ITEM_SKILL_BOOK2 = 4004;
+const ITEM_SKILL_BOOK3 = 4005;
+const ITEM_SKILL_BOOK4 = 4006;
+const ITEM_SKILL_BOOK5 = 4007;
+const ITEM_SKILL_BOOK6 = 4008;
+const ITEM_SKILL_BOOK7 = 4009;
+
+
+// 卡片包
+const ITEM_CARD_BAG = 6001;
+
+// 勇气值
+const ITEM_BRAVE = 7001;
+
+// 银币
+const ITEM_MONEY = 8001;
+//银票
+const ITEM_MONEY_TICKET1 = 8002;
+const ITEM_MONEY_TICKET2 = 8003;
+const ITEM_MONEY_TICKET3 = 8004;
+
+// 免战牌
+const ITEM_FREE_FIGHT = 9001;
+
+// 进阶魂
+const ITEM_FREE_FIGHT_PRESENT = 9002;
+
+// 经验卡
+const ITEM_EXPER_CARD_LOW = 9003;
+const ITEM_EXPER_CARD_MIDDLE = 9004;
+const ITEM_EXPER_CARD_HIGH = 9005;
+
+// 体力值
+const ITEM_ENERGY = 1101;
+// 精力
+const ITEM_VIGOR = 1102;
+//	本命丹
+const ITEM_NATAL = 1003;
+const ITEM_CRUSADE = 2005;
+
+?>

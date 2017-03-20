@@ -1,0 +1,40 @@
+<script src="jquery.min.js"></script>
+<script>
+/**
+ * 涓嶨atewayWorker寤虹珛websocket杩炴帴锛屽煙鍚嶅拰绔彛鏀逛负浣犲疄闄呯殑鍩熷悕绔彛锛�
+ * 鍏朵腑绔彛涓篏ateway绔彛锛屽嵆start_gateway.php鎸囧畾鐨勭鍙ｃ��
+ * start_gateway.php 涓渶瑕佹寚瀹歸ebsocket鍗忚锛屽儚杩欐牱
+ * $gateway = new Gateway(websocket://0.0.0.0:7272);
+ */
+ws = new WebSocket("ws://127.0.0.1:7272");
+// 鏈嶅姟绔富鍔ㄦ帹閫佹秷鎭椂浼氳Е鍙戣繖閲岀殑onmessage
+ws.onmessage = function(e){
+    // json鏁版嵁杞崲鎴恓s瀵硅薄
+    var data = eval("("+e.data+")");
+    var type = data.type || '';
+    console.log(data)
+    switch(type){
+        // Events.php涓繑鍥炵殑init绫诲瀷鐨勬秷鎭紝灏哻lient_id鍙戠粰鍚庡彴杩涜uid缁戝畾
+        case 'init':
+            // 鍒╃敤jquery鍙戣捣ajax璇锋眰锛屽皢client_id鍙戠粰鍚庣杩涜uid缁戝畾
+            $.post('http://127.0.0.1/server/Index.php', {
+            	command:"Index",
+            	action:"Bind",
+            	Identifier:100013,
+            	ClientId: data.client_id,
+            	debug:1,
+            	R:124,
+            	V:100,
+            }, function(data){}, 'json');
+            break;
+        case 'note':
+        	console.log(data.msg);
+        	break;
+        // 褰搈vc妗嗘灦璋冪敤GatewayClient鍙戞秷鎭椂鐩存帴alert鍑烘潵
+        default :
+            alert(data.msg);
+    }
+};
+</script>
+ceshi
+娴嬭瘯銆傘�傘��

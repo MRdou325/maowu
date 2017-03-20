@@ -1,0 +1,23 @@
+2017-03-17 16:10:39 pid:4465 Workerman[start.php] start in DEBUG mode
+2017-03-17 16:12:53 pid:4474 Bad request for Register service. Request info(IP:127.0.0.1, Request Buffer:GET / HTTP/1.1). See http://wiki.workerman.net/Error4 for detail
+2017-03-17 16:14:16 pid:4465 Workerman[start.php] Stopping ...
+2017-03-17 16:14:16 pid:4465 Workerman[start.php] has been stopped
+2017-03-17 16:14:20 pid:4480 Workerman[start.php] start in DEBUG mode
+2017-03-17 16:17:05 pid:4480 Workerman[start.php] Stopping ...
+2017-03-17 16:17:05 pid:4480 Workerman[start.php] has been stopped
+2017-03-17 16:17:13 pid:4491 Workerman[start.php] start in DEBUG mode
+2017-03-17 16:54:11 pid:4491 Workerman[start.php] Stopping ...
+2017-03-17 16:54:11 pid:4491 Workerman[start.php] has been stopped
+2017-03-17 16:54:14 pid:4548 Workerman[start.php] start in DEBUG mode
+2017-03-17 17:12:31 pid:4548 Workerman[start.php] Stopping ...
+2017-03-17 17:12:31 pid:4548 Workerman[start.php] has been stopped
+2017-03-17 17:16:15 pid:4598 Workerman[start.php] start in DEBUG mode
+2017-03-20 11:20:43 pid:1219 Workerman[start.php] start in DEBUG mode
+2017-03-20 11:20:51 pid:1219 Workerman[start.php] Stopping ...
+2017-03-20 11:20:51 pid:1219 Workerman[start.php] has been stopped
+2017-03-20 13:14:53 pid:1524 Workerman[start.php] start in DEBUG mode
+2017-03-20 13:14:55 pid:1524 Workerman[start.php] Stopping ...
+2017-03-20 13:14:55 pid:1524 Workerman[start.php] has been stopped
+2017-03-20 13:15:19 pid:1537 Workerman[start.php] start in DEBUG mode
+2017-03-20 15:20:26 pid:1537 Workerman[start.php] Stopping ...
+2017-03-20 15:20:26 pid:1537 Workerman[start.php] has been stopped
